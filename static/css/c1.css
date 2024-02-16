@@ -1,0 +1,22 @@
+h1
+{
+    display: inline-block;
+    background-color:black;
+    color: darkgray;
+}
+/* This one is used for applying the properties for Definition  */
+
+h2,h3
+{
+    display: inline;
+}
+/* This one is used for make the H1 & H3 block as a inline.. Inline is used for apply the block level Tag as Inline for making single sentence */
+
+a
+{
+    background-color: yellow;
+    display: inline-block;
+    color: darkblue;
+}
+
+/* This one is used for applying the properties to the href */

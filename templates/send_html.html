@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sending HTML</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/c1.css')}}">
+</head>
+<body>
+    <center>
+        <h1>Sending HTML which is rendered by Flask using Render Templates</h1><br>
+
+        <h3>User Name__</h3><h2>{{name}}</h2><br>
+
+        <img src="{{url_for('static',filename='images/trio.jpg')}}" alt="No Image" height="430px" width="750px"><br>
+        
+        <h1><a href="{{url_for('properties')}}">Click Here to Go Properties Page</a></h1>
+    </center>
+</body>
+</html>
